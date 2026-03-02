@@ -28,6 +28,20 @@ npx skills add https://github.com/likefallwind/skills --skill ai-tutorials
 |-------|-------------|
 | `ai-tutorials` | Design AI/ML courses with a structured workflow: knowledge points → syllabus → lectures + projects → self-review → README |
 
+## Updating Skills
+
+Re-run the install command to pull the latest version:
+
+```bash
+npx skills add https://github.com/likefallwind/skills
+```
+
+If installed globally:
+
+```bash
+npx skills add https://github.com/likefallwind/skills --global
+```
+
 ## Usage
 
 After installation, skills are triggered automatically based on your request. You can also invoke them explicitly:
