@@ -12,11 +12,11 @@ This is a **Claude Code skills repository** — a collection of skill files that
 skills/
 ├── CLAUDE.md
 └── <skill-name>/
-    ├── <skill-name>.md     # skill definition (YAML frontmatter + instructions)
+    ├── SKILL.md            # skill definition (YAML frontmatter + instructions)
     └── examples/           # example artifacts produced using the skill
 ```
 
-Each skill lives in its own directory named after the skill. The skill definition file shares the directory name. The `examples/` subdirectory holds sample outputs or reference materials for that skill.
+Each skill lives in its own directory named after the skill. The skill definition file must be named `SKILL.md` (required by the `npx skills` CLI). The `examples/` subdirectory holds sample outputs or reference materials for that skill.
 
 ## Skill File Format
 
